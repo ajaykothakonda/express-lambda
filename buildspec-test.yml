@@ -10,7 +10,7 @@ phases:
       - npm run test
 reports:
   jest_reports:
-  files:
-    - "test-report.xml"
-  file-format: JUNITXML
-  base-directory:  "test-reports"
+    files:
+      - "test-report.xml"
+    file-format: JUNITXML
+    base-directory:  "test-reports"
