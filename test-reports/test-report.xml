@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.461">
-  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-04-21T02:05:56" time="0.378" tests="1">
-    <testcase classname=" Service returns &apos;Hello World&apos;" name=" Service returns &apos;Hello World&apos;" time="0.047">
-      <failure>Error: thrown: [Function error]
-    at Object.test (C:\Users\pierr\workspaces\Server\test\integ.test.js:3:1)
-    at Runtime._execModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:1429:24)
-    at Runtime._loadModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:1013:12)
-    at Runtime.requireModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:873:12)
-    at jestAdapter (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:77:13)
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.527">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-04-21T04:19:48" time="0.439" tests="1">
+    <testcase classname=" Service returns &apos;Hello World!&apos;" name=" Service returns &apos;Hello World!&apos;" time="0.031">
+      <failure>TypeError: The &quot;url&quot; argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:120:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at dispatchHttpRequest (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\adapters\http.js:98:22)
+    at new Promise (&lt;anonymous&gt;)
+    at httpAdapter (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\core\dispatchRequest.js:53:10)
+    at Axios.request (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\core\Axios.js:108:15)
+    at Axios.&lt;computed&gt; [as get] (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\core\Axios.js:129:17)
+    at Function.wrap [as get] (C:\Users\pierr\workspaces\Server\node_modules\axios\lib\helpers\bind.js:9:15)
+    at Object.get (C:\Users\pierr\workspaces\Server\test\interation.test.js:5:34)
+    at Promise.then.completed (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\utils.js:226:10)
+    at _callCircusTest (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\run.js:297:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\run.js:233:3)
+    at _runTestsForDescribeBlock (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\run.js:135:9)
+    at run (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\run.js:68:3)
+    at runAndTransformResultsToJestFormat (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
     at runTestInternal (C:\Users\pierr\workspaces\Server\node_modules\jest-runner\build\runTest.js:367:16)
     at runTest (C:\Users\pierr\workspaces\Server\node_modules\jest-runner\build\runTest.js:444:34)</failure>
     </testcase>
