@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.461">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-04-21T02:05:56" time="0.378" tests="1">
+    <testcase classname=" Service returns &apos;Hello World&apos;" name=" Service returns &apos;Hello World&apos;" time="0.047">
+      <failure>Error: thrown: [Function error]
+    at Object.test (C:\Users\pierr\workspaces\Server\test\integ.test.js:3:1)
+    at Runtime._execModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:1429:24)
+    at Runtime._loadModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:1013:12)
+    at Runtime.requireModule (C:\Users\pierr\workspaces\Server\node_modules\jest-runtime\build\index.js:873:12)
+    at jestAdapter (C:\Users\pierr\workspaces\Server\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:77:13)
+    at runTestInternal (C:\Users\pierr\workspaces\Server\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\pierr\workspaces\Server\node_modules\jest-runner\build\runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
