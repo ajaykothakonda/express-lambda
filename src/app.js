@@ -3,7 +3,7 @@ const res = require("express/lib/response");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send('Hello World!');
 })
 
 const port = 8080
