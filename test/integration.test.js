@@ -8,5 +8,5 @@ test("Service returns 'Hello World!'", async () => {
     console.error(e.response.data);
     throw e;
   }
-  // comment
+
 });
