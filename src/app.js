@@ -1,8 +1,7 @@
 const express = require("express");
-const res = require("express/lib/response");
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/", function(req, res) {
     res.send('Hello World!');
 })
 
